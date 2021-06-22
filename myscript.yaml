@@ -1,0 +1,11 @@
+spack:
+  packages:
+    all:
+       target: [86x_64]
+  specs:
+  -matrix: 
+  -['^openblas@0.3.15']
+  -['^openmpi', 'mpich']
+  -['%gcc@4.8.5']
+  
+
